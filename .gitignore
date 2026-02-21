@@ -1,0 +1,26 @@
+# Environment and virtual environment files
+.env
+venv/
+.venv/
+env/
+
+# Local Visual Studio Code settings
+.vscode/
+
+# Python cache files
+__pycache__/
+
+# Elastic Beanstalk configuration
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+
+# SQLite database files
+*.sqlite3
+
+# media
+media
+
+# log files
+*.log
+commit.md
