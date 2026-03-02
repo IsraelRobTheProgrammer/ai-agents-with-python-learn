@@ -124,6 +124,4 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 OPENAI_API_KEY = config("OPENAI_API_KEY", default=None)
 GEMINI_API_KEY = config("GEMINI_API_KEY", default=None)
-
-# print(OPENAI_API_KEY)
-# print(GEMINI_API_KEY)
+TMDB_JWT_KEY = config("TMDB_JWT_KEY", default=None)

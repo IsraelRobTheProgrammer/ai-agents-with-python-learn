@@ -22,7 +22,7 @@ def get_required_model(metadata: dict[str, str]):
                 api_key=settings.OPENAI_API_KEY,
             )
         case _:
-            return Exception("Provider Not Available")
+            raise Exception("Provider Not Available")
 
 
 def get_openai_model(model="gpt-5-nano"):
